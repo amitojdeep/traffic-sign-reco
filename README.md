@@ -1,0 +1,2 @@
+# traffic-sign-reco
+Refer to http://benchmark.ini.rub.de/?section=gtsrb&subsection=news for the challenge details. Traffic50.ipynb contains the main source code and training results. The architecture is inspired by VGG and has been extended by use of Batchnorm & Dropout layers to achieve a better accuracy and faster training. An ensemble of 5 models achieved a test accuracy of 99.38% placing it in line with the academic state of the art. Training time for a single instance of the model was 3hrs on a machine with i7 6700HQ, 16GB RAM & GTX 960m GPU.
